@@ -16,7 +16,8 @@ DS1302 RTC 모듈을 통해 정확한 시간을 유지하고, I2C OLED 디스플
 
 ## 2. 구성도 (System Architecture)
 
-![하드웨어](https://github.com/user-attachments/assets/275e47f0-defc-4754-8429-b34f8973c90a)
+
+![하드웨어](https://github.com/user-attachments/assets/f4e531e2-0111-4c88-8404-bafc1c5e26d8)
 
 ![회로도](https://github.com/user-attachments/assets/c8581803-6e0e-436b-8780-ae711ea619ab)
 
@@ -100,7 +101,14 @@ DS1302 RTC 모듈을 통해 정확한 시간을 유지하고, I2C OLED 디스플
 
 
 ---
+## 5. 시연 영상
 
+
+https://github.com/user-attachments/assets/7ee707e1-1603-496c-b245-6c9e61de3839
+
+시계 동작, 로터리 엔코더를 이용한 시간 설정 
+
+---
 ## 6. 개발 후기
 
 - **Workqueue는 MCU의 `main loop`와 유사한 역할**: 커널에서 지속적으로 처리해야 할 작업을 안전하게 위임하는 구조
